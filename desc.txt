@@ -1,0 +1,10 @@
+webcam.py => 캡처하고 => detect.plate파일 실행하기
+
+python detect_plate.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --images ./data/images/car_kor2.jpg --plate
+
+
+
+
+
+python detect_plate.py --weights ./checkpoints/custom-416 --images ./data/images/car_kor2.jpg --plate
+
